@@ -114,5 +114,5 @@ chmod +x bot-linux start.sh
 2. 添加权限：`im:message`、`im:chat`、`card.action.trigger`
 3. 在 CardKit 编辑器中创建卡片模板，表单项标识（name）须与 Jenkins 参数名一致（本项目为小写 `env`、`branch`）
 4. 卡片模板的"发布"→"使用范围"中授权对应的 App ID
-5. 应用发布时需关闭"对外共享"以通过企业审核。...
+5. 应用发布时需关闭"对外共享"以通过企业审核。xxx
 
