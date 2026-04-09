@@ -1,4 +1,4 @@
-# get_downlink — 飞书 Jenkins 下载链接机器人
+# get_downlink — 一个基于GO server的飞书交互卡片机器人
 
 一个基于飞书 WebSocket 长连接模式的 Go 机器人，在飞书群内通过触发词唤起交互卡片表单，用户填写参数后自动调用 Jenkins API 触发构建任务，并将结果以卡片消息反馈到群内。
 
@@ -6,8 +6,8 @@
 
 | 触发词 | 卡片模板 | Jenkins Job | 说明 |
 |--------|----------|-------------|------|
-| `/apk` | `AAqeqR8kPDJn1` | `Third_Party_Business/客户端apk包下载链接` | 客户端 APK 子包下载链接生成 |
-| `/exe` | `AAqemYuOLSmfG` | `Third_Party_Business/客户端pc启动器下载链接` | PC 启动器下载链接生成 |
+| `/apk` | `xxx` | `Third_Party_Business/客户端apk包下载链接` | 客户端 APK 子包下载链接生成 |
+| `/exe` | `xxx` | `Third_Party_Business/客户端pc启动器下载链接` | PC 启动器下载链接生成 |
 | `/help` | — | — | 显示帮助信息 |
 
 **流程：**
